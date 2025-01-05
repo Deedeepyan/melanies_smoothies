@@ -2,7 +2,7 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 import requests
-import pandas
+import to_pandas
 
 # Write directly to the app
 st.title("Customize your Smoothies! :cup_with_straw:")
